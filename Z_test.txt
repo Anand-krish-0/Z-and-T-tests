@@ -1,0 +1,79 @@
+Z test: 
+    Z-test is a statistical test that is used to determine whether the mean of a sample is significantly 
+    different from a known population mean when the population standard deviation is known. 
+    It is particularly useful when the sample size is large (>30).
+
+    Z-test can also be defined as a statistical method that is used to determine whether the distribution of 
+    the test statistics can be approximated using the normal distribution or not. It is the method to 
+    determine whether two sample means are approximately the same or different when their variance is 
+    known and the sample size is large (should be >= 30).
+
+    A z test is conducted on a population that follows a normal distribution with independent data 
+    points and has a sample size that is greater than or equal to 30. It is used to check whether 
+    the means of two populations are equal to each other when the population variance is known. 
+    The null hypothesis of a z test can be rejected if the z test statistic is statistically significant 
+    when compared with the critical value.
+
+Assumptions of z-test:
+    1. The sample size should be greater than 30. Otherwise, we should use the t-test.
+    2. Samples should be drawn at random from the population.
+    3. The standard deviation of the population should be known.
+    4. Samples that are drawn from the population should be independent of each other.
+    5. The data should be normally distributed.
+
+Steps to perform Z-test:
+
+    1. First, identify the null and alternate hypotheses.
+    2. Determine the level of significance (∝).
+    3. Find the critical value of z in the z-test using
+    4. Calculate the z-test statistics. 
+    Below is the formula for calculating the z-test statistics.
+
+Z = (sample mean - μ)/(σ / sqrt of(n))
+
+where, 
+    μ : mean of the population.
+    σ : Standard deviation of the population.
+    n: sample size.
+Now compare with the hypothesis and decide whether to reject or not reject the null hypothesis. 
+
+Types of z-test:
+    1. One tailed z_test.
+        a.Rigth tailed test.
+        b.Left tailed test.
+    2. Two tailed z-test.
+    
+1. One tailed z-test:
+    A one-sample z test is used to check if there is a difference between the sample mean and 
+    the population mean when the population standard deviation is known. The formula for the z test 
+    statistic is given as follows:
+Z = (sample mean - μ) / (σ / sqrt of(n))
+ 
+μ : is the population mean. 
+σ : is the population standard deviation.
+n : is the sample size.
+
+a. Right tailed z-test.
+    In this test, our region of rejection is located to the extreme right of the distribution. 
+b. Left tailed z-test:
+    In this test, our region of rejection is located to the extreme left of the distribution.
+
+2. Two tailed z-test:
+    In this test, we have provided 2 normally distributed and independent populations, and 
+    we have drawn samples at random from both populations. Here, we consider u1 and u2 to be 
+    the population mean, and X1 and X2 to be the observed sample mean. Here, our null hypothesis 
+    could be like this:
+
+H_0 : μ_1 - μ_2 = 0
+
+and alternative hypothesis
+
+H_1 : μ_1 - μ_2 != 0
+
+and the formula for calculating the z-test score:
+
+Z = ((mean of x_1 - mean of x_2) - (μ_1 - μ_2)) / sqrt of(((σ_1)^2 / n_1) + ((σ_2)^2) / n_2)
+
+where ​
+σ_1 and σ_2 : are the standard deviation. 
+n_1 and n_2 : are the sample size of population mean corresponding to μ_1 - μ_2. 

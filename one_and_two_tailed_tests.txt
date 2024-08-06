@@ -1,0 +1,30 @@
+A.  One tailed test:
+    A one-tailed test may be either left-tailed or right-tailed.
+
+    A left-tailed test is used when the alternative hypothesis states that the true value of 
+    the parameter specified in the null hypothesis is less than the null hypothesis claims.
+
+    A right-tailed test is used when the alternative hypothesis states that the true value of 
+    the parameter specified in the null hypothesis is greater than the null hypothesis claims
+
+1. Statistical hypothesis test, where the alternate hypothesis is one-side (either right or left side).
+2. Hypothesis : Directional
+3. Level of Significance : Entire level of significance lies on one side.	
+4. Region of Rejection : Either on the left side  or right side of the sampling distribution
+5. Sign in alternate hypothesis : '<' (or) '>'
+
+B. Two tailed test:
+    two-tailed tests will have two critical regions. If we require a 100(1-α)% confidence interval 
+    we have to make some adjustments when using a two-tailed test.
+    
+    The confidence interval must remain a constant size, so if we are performing a two-tailed test, 
+    as there are twice as many critical regions then these critical regions must be half the size. 
+    
+    This means that when we read the tables, when performing a two-tailed test, we need to consider α/2
+    rather than α.
+
+1. Statistical hypothesis test, where the alternate hypothesis is two-tailed.
+2. Hypothesis : Non-Directional
+3. Level of Significance : Splits the level of significance into half.
+4. Region of Rejection : The rejection region is from both sides.
+5. Sign in alternate hypothesis : '=' (or) '!=' (not equal)

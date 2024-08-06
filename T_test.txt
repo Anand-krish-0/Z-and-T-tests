@@ -1,0 +1,93 @@
+T-Test:
+    
+    A t-test is a type of inferential statistic test used to determine if there is a significant 
+    difference between the means of two groups. It is often used when data is normally distributed 
+    and population variance is unknown.
+
+    The t-test is used in hypothesis testing to assess whether the observed difference between 
+    the means of the two groups is statistically significant or just due to random variation.
+
+    t-test is a statistical significant test for hypothesis testing.
+    t_test follows students_t distribution.
+
+    There are 3 steps in Hypothesis Testing:
+
+    1. State Null and Alternate Hypothesis
+    2. Perform Statistical Test
+    3. Accept and reject the Null Hypothesis
+    In this article, we will discuss the t-test.
+    
+    Assumptions in T-test:
+     1. Independence: The observations within each group must be independent of each other.
+     2. Normality: The data within each group should be approximately normally distributed.
+     3. Homogeneity of Variances (for independent samples t-test): The variances of 
+        the two groups being compared should be equal.
+     4. Population parameter (mean and standard deviation) is not known.
+     5. Small sample: Sample size (number of observations) < 30.
+
+Types of t-test:
+    1. One-sample t-test : The mean of a single group against a known mean.
+
+    2. Independent (Two-sample) t-test : The mean of a single group against a known mean.
+
+    3. Paired t-test : Compares means from the same group at different times.
+
+One sample T-test
+    One sample t-test is one of the widely used t-tests for comparison of the sample mean of 
+    the data to a particularly given value. Used for comparing the sample mean to the true/population mean.
+
+    We can use this when the sample size is small. (under 30) data is collected randomly and 
+    it is approximately normally distributed. It can be calculated as:
+
+t = (sample mean - population mean)/(sample standard deviation/sample size)     
+
+where,
+
+    t = t-value
+    x_bar = sample mean
+    μ = true/population mean
+    σ = standard deviation
+    n = sample size
+
+Two sample test:(independent sample test)
+    An Independent sample t-test, commonly known as an unpaired sample t-test is used to find out 
+    if the differences found between two groups is actually significant or just a random occurrence. 
+
+We can use this when:
+
+    the population mean or standard deviation is unknown. (information about the population is unknown)
+    the two samples are separate/independent. For eg. boys and girls (the two are independent of each other)
+It can be calculated using:
+
+test statisic:
+
+t = (mean of x_1 - mean of x_2)/sqrt of((s_1^2/n_1) + (s_2^2/n_2))    
+
+Where,
+    mean of x_1 and mean of x_2 = are the means of two groups. 
+    s_1 and s_2 = are standard deviation of two gruops.
+    n_1 and n_2 = are the sample size of two groups.
+
+Paired Two-sample T-test:
+    Paired sample t-test, commonly known as dependent sample t-test is used to find out 
+    if the difference in the mean of two samples is 0. The test is done on dependent samples, 
+    usually focusing on a particular group of people or things. In this, each entity is measured 
+    twice, resulting in a pair of observations. 
+
+We can use this when:
+
+    Two similar (twin like) samples are given. [Eg, Scores obtained in English and Math (both subjects)]
+    The dependent variable (data) is continuous.
+    The observations are independent of one another.
+    The dependent variable is approximately normally distributed.
+It can be calculated using,
+
+test statistic: 
+
+t = (d^bar)/(s_d/sqrt of(n))
+    
+where,
+
+d^bar = is the mean of the differences between the paired observations.
+(s_d) = is the standard deviation of the differences.
+(n) = is the number of paired observations.
