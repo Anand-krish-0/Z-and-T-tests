@@ -64,11 +64,9 @@ b. Left tailed z-test:
     the population mean, and X1 and X2 to be the observed sample mean. Here, our null hypothesis 
     could be like this:
 
-H_0 : μ_1 - μ_2 = 0
+Null hypothesis H_0 : μ_1 - μ_2 = 0
 
-and alternative hypothesis
-
-H_1 : μ_1 - μ_2 != 0
+Alternative hypothesis H_1 : μ_1 - μ_2 != 0
 
 and the formula for calculating the z-test score:
 
@@ -77,3 +75,4 @@ Z = ((mean of x_1 - mean of x_2) - (μ_1 - μ_2)) / sqrt of(((σ_1)^2 / n_1) + (
 where ​
 σ_1 and σ_2 : are the standard deviation. 
 n_1 and n_2 : are the sample size of population mean corresponding to μ_1 - μ_2. 
+
